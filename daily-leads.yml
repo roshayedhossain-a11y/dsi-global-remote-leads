@@ -1,0 +1,47 @@
+name: DSI Global Remote Lead Engine
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 02:00 UTC = 08:00 Dhaka
+    - cron: "0 2 * * *"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run lead engine
+        env:
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          MAX_PER_SOURCE: "150"
+          MAX_HTML_SOURCES_PER_RUN: "35"
+          MAX_COMPANIES_PER_RUN: "80"
+          MAX_REVIEW_ROWS: "500"
+          WRITE_REVIEW_QUEUE: "true"
+          MAX_HTML_LINKS_PER_SOURCE: "80"
+          VALIDATE_JOB_LINKS: "false"
+          RUN_MODE: "strict"
+        run: python dsi_lead_engine.py
+
+      - name: Upload CSV outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: dsi-leads-output
+          path: output/
+          retention-days: 7

@@ -1,0 +1,31 @@
+{
+  "greenhouse_boards": [
+    "automattic",
+    "gitlab",
+    "zapier",
+    "doist",
+    "supabase",
+    "canonical",
+    "webflow",
+    "stripe",
+    "airbnb",
+    "reddit"
+  ],
+  "lever_companies": [
+    "automattic",
+    "gitlab",
+    "zapier",
+    "doist",
+    "webflow",
+    "reddit",
+    "netlify",
+    "docker"
+  ],
+  "ashby_boards": [
+    "supabase",
+    "posthog",
+    "linear",
+    "deel",
+    "remote"
+  ]
+}

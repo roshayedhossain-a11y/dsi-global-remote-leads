@@ -1,0 +1,241 @@
+{
+  "remotive_categories": [
+    "software-dev",
+    "data",
+    "devops",
+    "qa",
+    "product"
+  ],
+  "remoteok_tags": [
+    "dev",
+    "engineer",
+    "software",
+    "backend",
+    "front-end",
+    "full-stack",
+    "python",
+    "react",
+    "node",
+    "devops",
+    "data"
+  ],
+  "wwr_categories": [
+    "remote-programming-jobs",
+    "remote-devops-sysadmin-jobs",
+    "remote-full-stack-programming-jobs",
+    "remote-back-end-programming-jobs",
+    "remote-front-end-programming-jobs",
+    "remote-mobile-jobs"
+  ],
+  "jobicy_industries": [
+    "engineering-tech",
+    "computer-science",
+    "data-science",
+    "devops-sysadmin"
+  ],
+  "generic_rss": [
+    {
+      "name": "Jobspresso",
+      "url": "https://jobspresso.co/feed/"
+    },
+    {
+      "name": "Nodesk",
+      "url": "https://nodesk.co/remote-jobs/feed/"
+    },
+    {
+      "name": "Dynamite Jobs",
+      "url": "https://dynamitejobs.com/feed"
+    },
+    {
+      "name": "Real Work From Anywhere All",
+      "url": "https://www.realworkfromanywhere.com/rss.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "Real Work From Anywhere Fullstack",
+      "url": "https://www.realworkfromanywhere.com/remote-fullstack-jobs/rss.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "Real Work From Anywhere Frontend",
+      "url": "https://www.realworkfromanywhere.com/remote-frontend-jobs/rss.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "Real Work From Anywhere Backend",
+      "url": "https://www.realworkfromanywhere.com/remote-backend-jobs/rss.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "Real Work From Anywhere Software Developer",
+      "url": "https://www.realworkfromanywhere.com/remote-software-developer-jobs/rss.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "Real Work From Anywhere DevOps",
+      "url": "https://www.realworkfromanywhere.com/remote-devops-and-sysadmin-jobs/rss.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "WorkAnywhere All",
+      "url": "https://workanywhere.pro/rss.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "WorkAnywhere Developer",
+      "url": "https://workanywhere.pro/rss/developer.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "WorkAnywhere Engineer",
+      "url": "https://workanywhere.pro/rss/engineer.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "WorkAnywhere Frontend",
+      "url": "https://workanywhere.pro/rss/frontend.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "WorkAnywhere Backend",
+      "url": "https://workanywhere.pro/rss/backend.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "WorkAnywhere Fullstack",
+      "url": "https://workanywhere.pro/rss/fullstack.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "WorkAnywhere Data AI",
+      "url": "https://workanywhere.pro/rss/data-ai.xml",
+      "trusted_global_source": true
+    },
+    {
+      "name": "JobsCollider Software Development RSS",
+      "url": "https://jobscollider.com/remote-jobs/software-development.rss",
+      "trusted_global_source": false
+    },
+    {
+      "name": "JobsCollider DevOps RSS",
+      "url": "https://jobscollider.com/remote-jobs/devops.rss",
+      "trusted_global_source": false
+    },
+    {
+      "name": "JobsCollider Data RSS",
+      "url": "https://jobscollider.com/remote-jobs/data.rss",
+      "trusted_global_source": false
+    },
+    {
+      "name": "JobsCollider QA RSS",
+      "url": "https://jobscollider.com/remote-jobs/qa.rss",
+      "trusted_global_source": false
+    }
+  ],
+  "himalayas_queries": [
+    "software engineer",
+    "backend engineer",
+    "frontend engineer",
+    "full stack engineer",
+    "devops engineer",
+    "site reliability engineer",
+    "data engineer",
+    "qa engineer",
+    "automation engineer",
+    "machine learning engineer",
+    "ai engineer",
+    "cloud engineer",
+    "platform engineer",
+    "mobile engineer",
+    "react developer",
+    "python developer",
+    "node developer"
+  ],
+  "jobscollider_categories": [
+    "software_development",
+    "devops",
+    "data",
+    "qa",
+    "cybersecurity"
+  ],
+  "always_html": [
+    {
+      "name": "We Work Remotely Anywhere in the World",
+      "url": "https://weworkremotely.com/100-percent-remote-jobs",
+      "trusted_global_source": true,
+      "role_focus": "Engineering / Developer / IT"
+    },
+    {
+      "name": "We Work Remotely Software Developer",
+      "url": "https://weworkremotely.com/remote-software-developer-jobs",
+      "trusted_global_source": true,
+      "role_focus": "Software Developer"
+    },
+    {
+      "name": "WeAreDistributed Engineering",
+      "url": "https://wearedistributed.org/jobs/engineering",
+      "trusted_global_source": true,
+      "role_focus": "Engineering"
+    },
+    {
+      "name": "WeAreDistributed All Jobs",
+      "url": "https://wearedistributed.org/jobs",
+      "trusted_global_source": true,
+      "role_focus": "Engineering / Developer / IT"
+    },
+    {
+      "name": "Remote Rocketship Worldwide Software Engineers",
+      "url": "https://www.remoterocketship.com/companies-hiring-worldwide/software-engineers/",
+      "trusted_global_source": true,
+      "role_focus": "Software Engineering"
+    },
+    {
+      "name": "NoDesk Engineering",
+      "url": "https://nodesk.co/remote-jobs/engineering/",
+      "trusted_global_source": false,
+      "role_focus": "Engineering"
+    },
+    {
+      "name": "Working Nomads Development",
+      "url": "https://www.workingnomads.com/jobs?category=development",
+      "trusted_global_source": false,
+      "role_focus": "Development"
+    },
+    {
+      "name": "Remote.co Developer",
+      "url": "https://remote.co/remote-jobs/developer/",
+      "trusted_global_source": false,
+      "role_focus": "Developer"
+    },
+    {
+      "name": "JustRemote Developer",
+      "url": "https://justremote.co/remote-developer-jobs",
+      "trusted_global_source": false,
+      "role_focus": "Developer"
+    },
+    {
+      "name": "Pangian Developer",
+      "url": "https://pangian.com/jobs/remote-developer-jobs/",
+      "trusted_global_source": false,
+      "role_focus": "Developer"
+    },
+    {
+      "name": "Remote First Jobs",
+      "url": "https://remotefirstjobs.com/remote-software-engineering-jobs",
+      "trusted_global_source": false,
+      "role_focus": "Software Engineering"
+    },
+    {
+      "name": "Arc Developer Jobs",
+      "url": "https://arc.dev/remote-jobs",
+      "trusted_global_source": false,
+      "role_focus": "Software Development"
+    },
+    {
+      "name": "YC Work at a Startup Remote Software Engineer",
+      "url": "https://www.ycombinator.com/jobs/role/software-engineer?remote=1",
+      "trusted_global_source": false,
+      "role_focus": "Software Engineering"
+    }
+  ]
+}
